@@ -1,0 +1,29 @@
+# FastAPI
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# LangChain & LangGraph
+langgraph==0.0.26
+langchain==0.1.4
+langchain-core==0.1.16
+
+# LLM Providers
+google-generativeai==0.3.2
+openai==1.10.0
+groq==0.4.1  # Groq API (uses OpenAI-compatible interface)
+
+# Database
+supabase==2.3.0
+
+# Google APIs
+google-auth==2.27.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+google-api-python-client==2.116.0
+
+# Utilities
+python-dotenv==1.0.0
+python-multipart==0.0.6
+httpx==0.26.0
